@@ -21,7 +21,7 @@ while (i <= 3) {
   if ((randomNumber % 2 === 0 && answer === 'yes') || (randomNumber % 2 !== 0 && answer === 'no')) {
     console.log('Correct!');
   } else {
-    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'. \nLet's try again, ${name}!`);
+    console.log(`${answer} is wrong answer ;(. Correct answer was ${answer === 'yes' ? 'no' : 'yes'}. \nLet's try again, ${name}!`);
     break;
   }
 
