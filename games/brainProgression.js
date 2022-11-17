@@ -17,9 +17,9 @@ const brainProgression = () => {
 
     const positionUnknowNumber = randomInteger(0, progressionLength - 1);
     const result = progression[positionUnknowNumber];
-    const question = progression.map((item, index) => (index === positionUnknowNumber ? '..' : String(item)));
+    const question = progression.map((item, index) => (index === positionUnknowNumber ? '..' : item));
 
-    return [question, String(result)];
+    return [question.join(' '), String(result)];
   };
 
   startGame(questionGame, getProgression);
