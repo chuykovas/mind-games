@@ -2,7 +2,7 @@ import randomInteger from '../src/util.js';
 import { startGame } from '../src/index.js';
 
 const brainPrime = () => {
-  const questionGame = 'What number is missing in the progression?';
+  const questionGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   const getPrimeNumber = () => {
     const randomNumber = randomInteger(1, 100);
     let isPrime = 'yes';
