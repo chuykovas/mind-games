@@ -11,6 +11,18 @@
 - Finding the Greatest Common Divisor.
 - Definition of a prime number.
 
+## Install:
+1. Make sure you have installed [Node.js](https://nodejs.org/en/) no lower version 12: ```node -v```.
+2. Clone repository: ```git@github.com:chuykovas/mind-games.git```.
+3. Change directory to mind-games
+4. Run the command: ```make install```.
+
+```shell
+$ git clone git@github.com:chuykovas/mind-games.git
+$ cd project-gendiff
+$ make install
+```
+
 
 
 [Демонстрация игры "Четность"](https://asciinema.org/a/J39BWttmblgGRnfAMiTRISYci)
